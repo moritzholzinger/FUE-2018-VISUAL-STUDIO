@@ -21,5 +21,12 @@ namespace FUE_2018_VISUAL_STUDIO
         {
 
         }
+
+        private void radiodiff1_CheckedChanged(object sender, EventArgs e)
+        {
+            diff1 = m * 9.81 - r * v;
+            
+
+        }
     }
 }
